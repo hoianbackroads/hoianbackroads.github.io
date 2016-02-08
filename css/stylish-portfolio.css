@@ -15,6 +15,13 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+/* Footer */
+
+footer {
+    padding: 100px 0;
+    background-color: #333;
+    color: #fff;
+}
 
 .text-vertical-center {
     display: table-cell;
@@ -277,7 +284,7 @@ hr.small {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  background-color: #333;
 }
 .carousel-inner > .item > img {
  /* position: absolute;*/
@@ -289,6 +296,10 @@ hr.small {
   height: 500px;
 }
 
+.carousel-control {
+  background-color: #333;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -297,6 +308,8 @@ hr.small {
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 .marketing h2 {
   font-weight: normal;
@@ -311,6 +324,10 @@ hr.small {
     .map {
         height: 75%;
     }
+}
+
+.carousel-caption {
+  bottom: 325px;
 }
 /*.carousel-indicators {
     bottom:15px;
@@ -340,8 +357,3 @@ hr.small {
     margin-right: auto;
  }*/
 
-/* Footer */
-
-footer {
-    padding: 100px 0;
-}
